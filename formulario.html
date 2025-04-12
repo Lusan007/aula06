@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <meta name="descreption" content="">
+    <title>Cadastro de Usuário</title>
 </head>
 <body>
-    <h1>Contato</h1>
+    <h1>Cadastro</h1>
     <form action="#" method="post">
         <label for="nome">Nome</label>
         <input type="text" name="nome">
@@ -18,10 +19,30 @@
         <input type="email" name="email">
         <br><br>
         <label for="telefone">Telefone</label>
-        <input type="tel" name="telefone">
+        <input type="number" name="telefone">
         <br><br>
         <input type="submit" value="Enviar">
+        <br><br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha">
+        <br><br>
+        <label for="sexo">Sexo</label>
+        <input type="radio" name="sexo" value="masculino">masculino
+        <input type="radio" name="sexo" value="feminino">feminino
+        <input type="radio" name="sexo" value="outros">outros
+        <br><br>
+        <label for="pesquisa">Onde você encontrou essapágina?</label>
+        <select id="pesquisa">
+            <option value="Linkedin">Linkedin</option>
+            <option value="Google">Google</option>
+            <option value="Facebook">Facebook</option>
+            <option value="WhatsApp">WhatsApp</option>
+        </select>
 
+        <br><br>
+
+        <label for="termo">Termo</label>
+        <input type="checkbox" name="termo">
 
 
     </form>
